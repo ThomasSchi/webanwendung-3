@@ -15,7 +15,6 @@ terraform {
 
 provider "aws" {
   region = "us-east-1"
-  profile = "terraform-user"
 }
 
 # Erzeuge einen zufälligen Suffix, damit der Bucket-Name bei jedem neuen State (oder Destroy/Apply) anders ist.
